@@ -109,8 +109,12 @@ img{
 
 /* CONTENT WRAP */
 
-#content-wrapper {
+
+
+@media (min-width: 992px) {
+    #content-wrapper {
     padding-left: var(--sidbar-width);
+}
 }
 
 
